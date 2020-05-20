@@ -1,6 +1,6 @@
 # hadolint ignore=DL3007
-FROM myoung34/github-runner-base:latest
-LABEL maintainer="myoung34@my.apsu.edu"
+FROM nickodell/docker-github-actions-runner:base
+LABEL maintainer="nickodell@gmail.com"
 
 ARG GH_RUNNER_VERSION="2.262.1"
 ARG TARGETPLATFORM
