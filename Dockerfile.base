@@ -1,5 +1,5 @@
-FROM ubuntu:eoan
-LABEL maintainer="myoung34@my.apsu.edu"
+FROM ubuntu:bionic
+LABEL maintainer="nickodell@gmail.com"
 
 ARG GIT_VERSION="2.26.2"
 
